@@ -1,0 +1,232 @@
+body{
+    margin: auto;
+    background-color: #fef9ff;
+}
+
+/* header */
+
+#logofont{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin:0;
+}
+
+#flavicon{
+    float: left;
+}
+
+.header{
+    background-color: #8CC7A1;
+    padding: 30px;
+    margin: auto;
+}
+
+nav{
+    display: inline;
+    position: absolute;
+    right: 10px;
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 600;
+    font-style: normal;
+   
+}
+
+.tagline{
+    text-align: right;
+    font-style: italic;
+    display: inline;
+}
+
+
+
+/* Main */
+
+h1{
+    margin: 20px;
+}
+
+.pagetitle{
+    text-align: center;
+    font-size: 40px;
+}
+
+#toast{
+   margin: 40px 5px 20px 20px; 
+   padding-left: 20px;
+   font-style: italic;
+   font-weight: bolder;
+   font-size: 35px;
+}
+
+
+p{
+    font-family: "Sree Krushnadevaraya", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px;
+    font-size: 18px;
+}
+
+ol, ul{
+    font-family: "Sree Krushnadevaraya", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+p.bold{
+    margin: 0;
+}
+
+h2, h3, h4, h5 {
+    margin-left: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3, h4{
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+
+
+/* homepage */
+
+#welcome{
+    margin: auto;
+    padding: 15px 45px;
+    
+    font-family: "Sree Krushnadevaraya", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#why{
+    text-align: right;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-right: 55px;
+}
+
+#list_three{
+    font-family: "Sree Krushnadevaraya", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px; 
+}
+
+.homepics{
+    border-radius: 100px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 35px;
+}
+
+
+
+/* recipe page */
+
+table{
+    margin: 20px;
+    padding: 15px;
+}
+
+td{
+    margin: 5px;
+    padding: 10px;
+}
+
+#gt{
+    float: right;
+    border-radius: 90px;
+    margin-right: 125px;
+}
+
+
+
+/* blog page */
+
+.blogpost{
+    background-color: #8bb6b3;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 30px;
+    
+}
+
+h3{
+    font-size: 20px;
+}
+
+#hangover{
+    float: left;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+#gt{
+    float: right;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+figure{
+    width: 300px;
+    display: contents;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+
+
+/* products page */
+
+.brands{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.brand_name{
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 20px;
+}
+    
+.description{
+    font-weight: lighter;
+}
+
+
+
+/* footer */
+
+footer{
+    margin-bottom: 0;
+    padding: 25px;
+    background-color: black;
+    color: #D6FFFD;
+}
